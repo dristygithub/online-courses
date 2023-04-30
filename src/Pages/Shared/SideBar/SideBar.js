@@ -5,7 +5,7 @@ const SideBar = () => {
   const [categories, setCategories] = useState([]);
 
   useEffect(() => {
-    fetch("https://tech-learner-server.vercel.app/categories")
+    fetch("https://online-courses-server-cyan.vercel.app/categories")
       .then((res) => res.json())
       .then((data) => setCategories(data));
   }, []);

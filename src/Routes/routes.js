@@ -71,14 +71,14 @@ export const routes = createBrowserRouter([
       {
         path: "/courses",
         element: <Courses></Courses>,
-        loader: () => fetch("https://tech-learner-server.vercel.app/courses"),
+        loader: () => fetch("https://online-courses-server-cyan.vercel.app/courses"),
       },
       {
         path: "/courses/category/:id",
         element: <Category></Category>,
         loader: ({ params }) =>
           fetch(
-            `https://tech-learner-server.vercel.app/courses/category/${params.id}`
+            `https://online-courses-server-cyan.vercel.app/courses/category/${params.id}`
           ),
       },
       {
@@ -86,7 +86,7 @@ export const routes = createBrowserRouter([
         element: <CourseDetails></CourseDetails>,
         loader: ({ params }) =>
           fetch(
-            `https://tech-learner-server.vercel.app/courses/course/${params.id}`
+            `https://online-courses-server-cyan.vercel.app/courses/course/${params.id}`
           ),
       },
       {
@@ -98,7 +98,7 @@ export const routes = createBrowserRouter([
         ),
         loader: ({ params }) =>
           fetch(
-            `https://tech-learner-server.vercel.app/courses/course/${params.id}`
+            `https://online-courses-server-cyan.vercel.app/courses/course/${params.id}`
           ),
       },
     ],

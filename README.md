@@ -1,6 +1,6 @@
 # Tech Learner
 
-> Live site: [Tech Learner](https://tech-learner-a4401.firebaseapp.com/).
+> Live site: [Tech Learner](https://online-courses-v1.netlify.app/).
 
 Some Key Features:
 
